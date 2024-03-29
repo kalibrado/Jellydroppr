@@ -10,5 +10,4 @@ COPY modules/ modules/
 COPY config/ config/
 COPY main.py main.py
 
-
-ENTRYPOINT ['python', '/main.py']
+CMD python3 /main.py
