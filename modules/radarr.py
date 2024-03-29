@@ -1,7 +1,7 @@
 import os 
 import shutil
 from pyarr import RadarrAPI
-from utils import *
+from modules.utils import *
 
 def movie_finder():
     log(WHITE, "MOVIE", "Movie trailer finder started.")

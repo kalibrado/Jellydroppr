@@ -1,6 +1,6 @@
 from pyarr import SonarrAPI
 import shutil
-from utils import *
+from modules.utils import *
 
 def show_finder():
     log(WHITE, "SonarrAPI", "Show trailer finder started.")
