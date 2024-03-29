@@ -1,0 +1,25 @@
+### Mandatory ###
+radarr_api: "*******************************"
+radarr_host: "http://127.0.0.1:7878"
+sonarr_api: "*******************************"
+sonarr_host: "http://127.0.0.1:8989"
+tmdb_api: "********************************"
+output_dirs: "backdrops"
+
+### Optional ###
+filetype: "mkv"
+# sleep time seconds ex: 3 hour = 10800
+sleep_time: 10800
+try_before_aborting: 3
+length_range: "30,300"
+skip_intros: False
+thread_count: 8
+subs: False
+only_one_trailer: True
+auth_yt_user: ""
+auth_yt_pass: ""
+yt_link_base: "https://www.youtube.com/watch?v="
+yt_search_keywords: ""
+no_warnings: True
+remove_black_borders: False
+buffer_size_ffmpeg: 2M
