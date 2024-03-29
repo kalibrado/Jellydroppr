@@ -5,7 +5,7 @@
 version: "3"
 services:
   Jellydroppr:
-    image: ldfe/Jellydroppr:latest
+    image: ldfe/jellydroppr:latest
     restart: always
     volumes:
       - ./config:/config # Where the config file will be located
