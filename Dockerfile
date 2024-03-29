@@ -6,8 +6,6 @@ WORKDIR /
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-COPY modules/ modules/
-COPY config/ config/
-COPY main.py main.py
+COPY . /
 
 CMD python3 /main.py
