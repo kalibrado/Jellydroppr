@@ -3,3 +3,4 @@ venv
 *.pyc
 */config.yml
 __pycache__
+cache/
