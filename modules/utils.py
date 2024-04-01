@@ -4,13 +4,11 @@ import subprocess
 import requests
 import yaml
 import yt_dlp
+from time import sleep
 
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     config = yaml.load(f, Loader=yaml.Loader)
 
-
-MOVIE_TRAILLER_ADDED = 0
-SHOW_TRAILLER_ADDED = 0
 KB = 1024
 MB = 1024 * KB
 GB = 1024 * MB
@@ -23,6 +21,7 @@ WHITE = "\033[37m"
 
 def log(color, prefix, msg):
     print(color + f"[{prefix}] - {msg} " + RESET + "\n")
+    sleep(1)
 
 def trailer_pull(tmdb_id, item_type, parent_mode = False):
     log(WHITE, "PULL", f"Getting information about {tmdb_id} {item_type}")
@@ -45,40 +44,24 @@ def trailer_pull(tmdb_id, item_type, parent_mode = False):
     except:
         return []
    
-def post_process(cache_path, files, item_path, bitrate = None, cropvalue = None):
+def post_process(cache_path, files, item_path):
     log(WHITE, "POST PROCESS", f"Create '{item_path}/{config['output_dirs']}' folder ")
     os.makedirs(f'{item_path}/{config["output_dirs"]}', exist_ok=True)
 
     for file in files:
         filename = Path(file).stem
         base = f'ffmpeg -i "{cache_path}/{file}" -threads {config["thread_count"]} '
-        if cropvalue:
-            base += f'-vf {cropvalue} -c:v libx264 '
-        if bitrate:
-            base += f'-b:v {bitrate*140} -maxrate {bitrate*140} '
-        if not cropvalue and not bitrate:
-            base += '-c:v copy -c:a aac -af "volume=-7dB" '
-            
+        base += '-c:v copy -c:a aac -af "volume=-7dB" '   
         base += f'-bufsize {config["buffer_size_ffmpeg"]} -preset slow '
         base += f'-y "{item_path}/{config["output_dirs"]}/{filename}.{config["filetype"]}" '
         log(WHITE, "FFMPEG", base)
         ffmpeg = subprocess.Popen(base, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
         ffmpeg.wait()
         
-def remove_black_borders(files):
-    for file in files:
-        log(WHITE, "BLACK BORDER", f"Looking for black borders {file} ...")
-        cropvalue = subprocess.check_output(f"ffmpeg -i '{file}' -t 30 -vf cropdetect -f null - 2>&1 | awk "
-                                        "'/crop/ {{ print $NF }}' | tail -1",
-                                            shell=True).decode('utf-8').strip()
-        log(WHITE, "DEBUG BLACK BORDER", cropvalue)
-        l = [j for i, j in {720: 20, 1280: 24, 1920: 28, 3840: 35}.items()
-            if i >= int(cropvalue.split('crop=')[1].split(':')[0])]
-        return cropvalue, l[0] if len(l) > 0 else None
-
 def trailer_download(link, item):
-    cache_path = f'cache/{item["title"]}/'
+    cache_path = f'cache/{item["title"]}'
     def dl_progress(d): 
+        print()
         if d["status"] == "finished":
             log(GREEN, "YT_DL", "Trailer downloaded.")
         if d["status"] == "error":
@@ -124,8 +107,9 @@ def trailer_download(link, item):
         ytdl_opts.update({'match_filter': check_duration}) 
     
     ydl = yt_dlp.YoutubeDL(ytdl_opts)
-    try:
-        links = list(d["yt_link"] for d in link if "yt_link" in d)
+
+    links = list(d["yt_link"] for d in link if "yt_link" in d)
+    if len(links) > 0:
         for link in links:
             if config["only_one_trailer"]:
                 if os.path.exists(cache_path) and len(os.listdir(cache_path)) > 0:
@@ -138,17 +122,16 @@ def trailer_download(link, item):
             else:
                 log(WHITE, "YT_DLP", "Importing all trailers...")
                 ydl.download(link)
-    except:
-        log(RED, "YT_DLP", "Something went wrong, Searching for something else...")
-        ydl.download([f"ytsearch5:{item['title']} ({item['year']}) {config['yt_search_keywords']}"])
-        
+    else:
+        log(WHITE, "YT_DLP", f"No avalide links try manual search with: 'ytsearch5:{item['title']} ({item['year']}) {config['yt_search_keywords']}'")
+        try:
+            ydl.download([f"ytsearch5:{item['title']} ({item['year']}) {config['yt_search_keywords']}"])
+        except:
+            log(RED, "YT_DLP", f"No trailler found for: '{item['title']} ({item['year']})'")
+
+            
     if os.path.exists(cache_path):
         files = os.listdir(cache_path)
-        if config['remove_black_borders']:
-            remove_black_borders(files)
-        else:
-            post_process(cache_path, files, item['path'] )
+        post_process(cache_path, files, item['path'] )
     else:
-        log(RED, 'YT_DLP', f'No cache folder for {cache_path}')
-        
-        
+        log(RED, 'YT_DLP', f'No cache folder for {cache_path}')  

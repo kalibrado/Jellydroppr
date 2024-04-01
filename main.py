@@ -12,31 +12,32 @@ def main():
         log(GREEN, "CREATE", "Created cache directory.")
     except:
         log(RED, "CREATE", "Cache directory found.")
+        
     while True:
-        MOVIE_TRAILLER_ADDED = 0
-        SHOW_TRAILLER_ADDED = 0        
         log(WHITE, "CACHE", f"Clean cache")
         shutil.rmtree("cache/", ignore_errors=True)
         
         if all(x in config for x in ["radarr_host", "radarr_api"]):
-            movie_thread = threading.Thread(name="MOVIE", target=movie_finder, daemon=True )
+            movie_finder()
+	        # movie_thread = threading.Thread(name="MOVIE", target=movie_finder, daemon=True )
         if all(x in config for x in ['sonarr_host', 'sonarr_api']):
-            show_thread = threading.Thread(name="SHOW", target=show_finder, daemon=True )
+            show_finder()
+            # show_thread = threading.Thread(name="SHOW", target=show_finder, daemon=True )
 
-        movie_thread.start()
-        show_thread.start()
+        # movie_thread.start()
+        # show_thread.start()
         
-        movie_thread.join()
-        show_thread.join()
+        # movie_thread.join()
+        # show_thread.join()
         
         log(WHITE, "CACHE", f"Clean cache")
         shutil.rmtree("cache/", ignore_errors=True)
        
         if "sleep_time" in config:
-            log(WHITE, "WAIT", f"Operation complete. Movie {MOVIE_TRAILLER_ADDED} trailler added  Show {SHOW_TRAILLER_ADDED} trailler added \n Waiting {config['sleep_time']} second(s).")
-            sleep(config["sleep_time"])
+            log(WHITE, "WAIT", f"Operation complete. \n Waiting {config['sleep_time'] * 3600} minute(s).")
+            sleep(config['sleep_time'] * 3600)
         else:
-            log(WHITE, "FINISH", f"Operation complete. Movie {MOVIE_TRAILLER_ADDED} trailler added  Show {SHOW_TRAILLER_ADDED} trailler added \n No sleep time was set, stopping.")
+            log(WHITE, "FINISH", f"Operation complete. \n No sleep time was set, stopping.")
             exit()
 
 
