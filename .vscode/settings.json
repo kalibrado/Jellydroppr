@@ -1,0 +1,44 @@
+{
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": false,
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter"
+  },
+  "git.confirmSync": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "remote.SSH.remotePlatform": {
+    "DELL-I5": "linux"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.accessibleViewFocusOnCommandExecution": false,
+  "terminal.integrated.bellDuration": 100000,
+  "workbench.startupEditor": "none",
+  "accessibility.verbosity.terminal": false,
+  "debug.terminal.clearBeforeReusing": true
+}
