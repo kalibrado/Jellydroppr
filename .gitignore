@@ -4,3 +4,5 @@ venv
 */config.yml
 __pycache__
 cache/
+.idea/ 
+*.sqlite

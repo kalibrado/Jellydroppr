@@ -1,0 +1,1419 @@
+{
+    "radarr": {
+        "failed": {
+            "4247": {
+                "title": "Scary Movie",
+                "originalTitle": "Scary Movie",
+                "originalLanguage": {
+                    "id": 1,
+                    "name": "English"
+                },
+                "alternateTitles": [
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Una película de miedo",
+                        "id": 17919
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Scary Movie - Senza paura, senza vergogna... senza cervello!",
+                        "id": 17920
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Mrak film",
+                        "id": 17921
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Strašné kino",
+                        "id": 17922
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Duzhe strashne kino",
+                        "id": 17923
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "무서운 영화",
+                        "id": 17924
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Strashen film",
+                        "id": 17925
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Ochen' strashnoye kino",
+                        "id": 17926
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Straszny Film",
+                        "id": 17927
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Film de peur",
+                        "id": 17928
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Scary Movie 1",
+                        "id": 17929
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Phim Kinh Dị Hài Mỹ 1",
+                        "id": 17930
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 727,
+                        "title": "Qoxulu Bir Film",
+                        "id": 17931
+                    }
+                ],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "scary movie",
+                "sizeOnDisk": 2513277440,
+                "status": "released",
+                "overview": "Un soir, Drew Becker reçoit un appel anonyme d’un maniaque. Traquée dans sa maison, puis dans son jardin, elle finit par se faire tuer. Sa mort plonge ses camarades de lycée en plein cauchemar, d’autant qu'ils doivent désormais faire face à un tueur en série, caché parmi eux. Flairant le scoop, la journaliste Gail Hailstorn débarque en ville, bien décidée à harceler Cindy Campbell et ses amis à propos de cette histoire...",
+                "inCinemas": "2000-07-07T00:00:00Z",
+                "physicalRelease": "2001-04-03T00:00:00Z",
+                "digitalRelease": "2002-11-09T00:00:00Z",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1579/poster.jpg?lastWrite=638416873103926875",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/lRQiJXETkCnVVurHmglNvMXrZOx.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1579/fanart.jpg?lastWrite=638416873104046877",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/m5dA4JZsj78EBTa2D6imWOAebwB.jpg"
+                    }
+                ],
+                "website": "",
+                "year": 2000,
+                "youTubeTrailerId": "HTLPULt0eJ4",
+                "studio": "Brad Grey Pictures",
+                "path": "/mnt/Media2/Films/Scary Movie (2000)",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": false,
+                "minimumAvailability": "released",
+                "isAvailable": true,
+                "folderName": "/mnt/Media2/Films/Scary Movie (2000)",
+                "runtime": 88,
+                "cleanTitle": "scarymovie",
+                "imdbId": "tt0175142",
+                "tmdbId": 4247,
+                "titleSlug": "4247",
+                "rootFolderPath": "/mnt/Media2/Films/",
+                "certification": "12",
+                "genres": [
+                    "Comedy"
+                ],
+                "tags": [],
+                "added": "2024-01-12T10:55:00Z",
+                "ratings": {
+                    "imdb": {
+                        "votes": 284623,
+                        "value": 6.3,
+                        "type": "user"
+                    },
+                    "tmdb": {
+                        "votes": 6617,
+                        "value": 6.4,
+                        "type": "user"
+                    },
+                    "metacritic": {
+                        "votes": 0,
+                        "value": 48,
+                        "type": "user"
+                    },
+                    "rottenTomatoes": {
+                        "votes": 0,
+                        "value": 51,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1579,
+                    "relativePath": "Scary Movie.mkv",
+                    "path": "/mnt/Media2/Films/Scary Movie (2000)/Scary Movie.mkv",
+                    "size": 2513277440,
+                    "dateAdded": "2024-04-01T08:14:30Z",
+                    "sceneName": "[ Torrent911.cc ] Scary.Movie.1.2000.MULTi.VF2.1080p.BluRay.x264.AC3.5.1-PopHD-Dread-Team",
+                    "indexerFlags": 1,
+                    "quality": {
+                        "quality": {
+                            "id": 7,
+                            "name": "Bluray-1080p",
+                            "source": "bluray",
+                            "resolution": 1080,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 448000,
+                        "audioChannels": 5.1,
+                        "audioCodec": "AC3",
+                        "audioLanguages": "fre/eng/fre",
+                        "audioStreamCount": 3,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 0,
+                        "videoCodec": "x264",
+                        "videoFps": 23.976,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "1920x810",
+                        "runTime": "1:28:17",
+                        "scanType": "Progressive",
+                        "subtitles": "fre/fre/fre/eng"
+                    },
+                    "originalFilePath": "[ Torrent911.cc ] Scary.Movie.1.2000.MULTi.VF2.1080p.BluRay.x264.AC3.5.1-PopHD-Dread-Team.mkv",
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 2,
+                            "name": "French"
+                        },
+                        {
+                            "id": 1,
+                            "name": "English"
+                        }
+                    ],
+                    "releaseGroup": "Team",
+                    "edition": "",
+                    "id": 2074
+                },
+                "collection": {
+                    "title": "Scary Movie Collection",
+                    "tmdbId": 4246
+                },
+                "popularity": 43.189,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 2513277440,
+                    "releaseGroups": [
+                        "Team"
+                    ]
+                },
+                "id": 4247,
+                "retry": 1,
+                "reason": "No cache folder for Scary Movie"
+            },
+            "387893": {
+                "title": "L’Âge de glace : La Grande Chasse aux œufs",
+                "originalTitle": "Ice Age: The Great Egg-Scapade",
+                "originalLanguage": {
+                    "id": 1,
+                    "name": "English"
+                },
+                "alternateTitles": [
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Ледниковый Период: Погоня за яйцами (2016)",
+                        "id": 20019
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Ice Age: En busca del huevo",
+                        "id": 20020
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Istid - Den store eggjakten",
+                        "id": 20021
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Ice Age - Den store æggejagt",
+                        "id": 20022
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "A Era do Gelo A Grande Caçada aos Ovos de Páscoa",
+                        "id": 20023
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Doba ledová - Velikonoční překvapení",
+                        "id": 20024
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "아이스 에이지 : 알찾기 대모험",
+                        "id": 20025
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "冰原歷險記：笑星撞地球",
+                        "id": 20026
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "La Era de hielo El gran huevo",
+                        "id": 20027
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "L'Era Glaciale 6 - La Grande Caccia alle Uova",
+                        "id": 20028
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Epoka Lodowcowa: Wielkanocne Niespodzianki",
+                        "id": 20029
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "Ice Age - Jäger der verlorenen Eier",
+                        "id": 20030
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "아이스 에이지 - 알 찾기 대소동",
+                        "id": 20031
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "L'Age de Glace -  La Grande Chasse aux œufs",
+                        "id": 20032
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "冰河时代：巨蛋恶作剧",
+                        "id": 20033
+                    },
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1095,
+                        "title": "冰河世纪番外：巨蛋恶作剧",
+                        "id": 20034
+                    }
+                ],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "lâge de glace la grande chasse aux œufs",
+                "sizeOnDisk": 736884308,
+                "status": "released",
+                "overview": "Scrat, Manny, Sid, Diego et tous vos copains préhistoriques de L’Âge de Glace sont de retour pour de nouvelles aventures hilarantes. Sid a créé son entreprise de nounou pour œuf, et ça marche ! Mais lorsque Squint le pirate vole les œufs, Manny, Diego et le reste du gang se mettent en route pour une mission de sauvetage périlleuse qui devient la première chasse à l’œuf de l’Histoire.",
+                "inCinemas": "2016-03-19T00:00:00Z",
+                "physicalRelease": "2017-04-03T00:00:00Z",
+                "digitalRelease": "2016-03-20T00:00:00Z",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1761/poster.jpg?lastWrite=638435365668519323",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/ysQqYp9G37Q114Nc6uvCHbDmaj6.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1761/fanart.jpg?lastWrite=638435365671359364",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/uC0F3e3thSjuCLvu0ELCNRVuf7a.jpg"
+                    }
+                ],
+                "website": "",
+                "year": 2016,
+                "youTubeTrailerId": "74tcmiPJt_o",
+                "studio": "House of Cool Studios",
+                "path": "/mnt/Media1/Films/Ice Age The Great Egg-Scapade 2016",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": true,
+                "minimumAvailability": "announced",
+                "isAvailable": true,
+                "folderName": "/mnt/Media1/Films/Ice Age The Great Egg-Scapade 2016",
+                "runtime": 25,
+                "cleanTitle": "iceagegreateggscapade",
+                "imdbId": "tt5480340",
+                "tmdbId": 387893,
+                "titleSlug": "387893",
+                "rootFolderPath": "/mnt/Media1/Films/",
+                "certification": "U",
+                "genres": [
+                    "Adventure",
+                    "Animation",
+                    "Comedy"
+                ],
+                "tags": [
+                    4
+                ],
+                "added": "2024-02-14T19:42:37Z",
+                "ratings": {
+                    "imdb": {
+                        "votes": 3975,
+                        "value": 5.9,
+                        "type": "user"
+                    },
+                    "tmdb": {
+                        "votes": 447,
+                        "value": 6.4,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1761,
+                    "relativePath": "Ice Age The Great Egg-Scapade.avi",
+                    "path": "/mnt/Media1/Films/Ice Age The Great Egg-Scapade 2016/Ice Age The Great Egg-Scapade.avi",
+                    "size": 736884308,
+                    "dateAdded": "2024-02-14T21:04:23Z",
+                    "sceneName": "[ www.CpasBien.cm ] Ice.Age.The.Great.Egg-Scapade.2016.TRUEFRENCH.DVDRIP.XviD-ShowFr",
+                    "indexerFlags": 1,
+                    "quality": {
+                        "quality": {
+                            "id": 2,
+                            "name": "DVD",
+                            "source": "dvd",
+                            "resolution": 0,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 128000,
+                        "audioChannels": 2,
+                        "audioCodec": "MP3",
+                        "audioLanguages": "",
+                        "audioStreamCount": 1,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 1204975,
+                        "videoCodec": "XviD",
+                        "videoFps": 23.976,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "640x336",
+                        "runTime": "1:13:17",
+                        "scanType": "Progressive",
+                        "subtitles": ""
+                    },
+                    "originalFilePath": "[ www.CpasBien.cm ] Ice.Age.The.Great.Egg-Scapade.2016.TRUEFRENCH.DVDRIP.XviD-ShowFr.avi",
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 2,
+                            "name": "French"
+                        }
+                    ],
+                    "releaseGroup": "ShowFr",
+                    "edition": "",
+                    "id": 1880
+                },
+                "popularity": 25.073,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 736884308,
+                    "releaseGroups": [
+                        "ShowFr"
+                    ]
+                },
+                "id": 387893,
+                "retry": 1,
+                "reason": "No cache folder for L’Âge de glace : La Grande Chasse aux œufs"
+            },
+            "1140679": {
+                "title": "Basilosaurus, la baleine carnivore",
+                "originalTitle": "Basilosaurus, la baleine carnivore",
+                "originalLanguage": {
+                    "id": 2,
+                    "name": "French"
+                },
+                "alternateTitles": [],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "basilosaurus la baleine carnivore",
+                "sizeOnDisk": 1857267609,
+                "status": "released",
+                "overview": "Dans le désert égyptien, des chercheurs exhument les restes d'un monstre des mers vieux de quarante millions d'années qui porte le nom de basilosaurus.",
+                "digitalRelease": "2023-06-15T00:00:00Z",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1892/poster.jpg?lastWrite=638463683572466107",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/seuiKqAaoRA1DOyMkc7cfBOE2x5.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1892/fanart.jpg?lastWrite=638463683573026117",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/dWctq496dnqckuqfmutxLFy3RlQ.jpg"
+                    }
+                ],
+                "website": "",
+                "year": 2023,
+                "youTubeTrailerId": "",
+                "studio": "Windfall Films",
+                "path": "/mnt/Media1/Films/Basilosaurus, la baleine carnivore (2023)",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": true,
+                "minimumAvailability": "announced",
+                "isAvailable": true,
+                "folderName": "/mnt/Media1/Films/Basilosaurus, la baleine carnivore (2023)",
+                "runtime": 0,
+                "cleanTitle": "basilosauruslabaleinecarnivore",
+                "tmdbId": 1140679,
+                "titleSlug": "1140679",
+                "rootFolderPath": "/mnt/Media1/Films/",
+                "genres": [
+                    "Documentary"
+                ],
+                "tags": [],
+                "added": "2024-03-18T14:19:15Z",
+                "ratings": {
+                    "tmdb": {
+                        "votes": 1,
+                        "value": 8,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1892,
+                    "relativePath": "Basilosaurus, la baleine carnivore (2023).mkv",
+                    "path": "/mnt/Media1/Films/Basilosaurus, la baleine carnivore (2023)/Basilosaurus, la baleine carnivore (2023).mkv",
+                    "size": 1857267609,
+                    "dateAdded": "2024-03-18T14:19:17Z",
+                    "indexerFlags": 0,
+                    "quality": {
+                        "quality": {
+                            "id": 3,
+                            "name": "WEBDL-1080p",
+                            "source": "webdl",
+                            "resolution": 1080,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 0,
+                        "audioChannels": 2,
+                        "audioCodec": "AAC",
+                        "audioLanguages": "fre",
+                        "audioStreamCount": 1,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 0,
+                        "videoCodec": "h264",
+                        "videoFps": 25,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "1920x1080",
+                        "runTime": "50:00",
+                        "scanType": "Progressive",
+                        "subtitles": "fre"
+                    },
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 2,
+                            "name": "French"
+                        }
+                    ],
+                    "edition": "",
+                    "id": 1985
+                },
+                "popularity": 0.6,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 1857267609,
+                    "releaseGroups": []
+                },
+                "id": 1140679,
+                "retry": 1,
+                "reason": "No cache folder for Basilosaurus, la baleine carnivore"
+            },
+            "1128720": {
+                "title": "Dans L'Inconnu : La Grotte Aux Ossements",
+                "originalTitle": "Unknown: Cave of Bones",
+                "originalLanguage": {
+                    "id": 1,
+                    "name": "English"
+                },
+                "alternateTitles": [
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1234,
+                        "title": "Det ukjente: Knokkelhulen",
+                        "id": 20712
+                    }
+                ],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "dans l inconnu la grotte aux ossements",
+                "sizeOnDisk": 1869730309,
+                "status": "released",
+                "overview": "Des scientifiques examinent des indices enfouis depuis 250000 ans et soulèvent des questions sur nos premiers ancêtres, ainsi que sur la nature profonde de l'humanité.",
+                "digitalRelease": "2023-07-17T00:00:00Z",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1893/poster.jpg?lastWrite=638463683571106085",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/irDu0rnlzTpl8RkOEl7XG2B88tJ.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1893/fanart.jpg?lastWrite=638463683571906098",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/6inQZW13AWeSPPPSrKqVJZNfjiI.jpg"
+                    }
+                ],
+                "website": "https://www.netflix.com/title/81473682",
+                "year": 2023,
+                "youTubeTrailerId": "D85B4rVcFtk",
+                "studio": "Story Syndicate",
+                "path": "/mnt/Media1/Films/Dans l'inconnu La grotte aux ossements (2023)",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": true,
+                "minimumAvailability": "announced",
+                "isAvailable": true,
+                "folderName": "/mnt/Media1/Films/Dans l'inconnu La grotte aux ossements (2023)",
+                "runtime": 93,
+                "cleanTitle": "unknowncavebones",
+                "imdbId": "tt27837467",
+                "tmdbId": 1128720,
+                "titleSlug": "1128720",
+                "rootFolderPath": "/mnt/Media1/Films/",
+                "certification": "TP",
+                "genres": [
+                    "Documentary"
+                ],
+                "tags": [],
+                "added": "2024-03-18T14:19:15Z",
+                "ratings": {
+                    "imdb": {
+                        "votes": 2284,
+                        "value": 6.7,
+                        "type": "user"
+                    },
+                    "tmdb": {
+                        "votes": 35,
+                        "value": 7.329,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1893,
+                    "relativePath": "Dans l'inconnu La grotte aux ossements (2023).mkv",
+                    "path": "/mnt/Media1/Films/Dans l'inconnu La grotte aux ossements (2023)/Dans l'inconnu La grotte aux ossements (2023).mkv",
+                    "size": 1869730309,
+                    "dateAdded": "2024-03-18T14:19:17Z",
+                    "indexerFlags": 0,
+                    "quality": {
+                        "quality": {
+                            "id": 5,
+                            "name": "WEBDL-720p",
+                            "source": "webdl",
+                            "resolution": 720,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 768000,
+                        "audioChannels": 5.1,
+                        "audioCodec": "EAC3 Atmos",
+                        "audioLanguages": "eng/fre",
+                        "audioStreamCount": 2,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 0,
+                        "videoCodec": "x264",
+                        "videoFps": 23.976,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "1280x720",
+                        "runTime": "1:34:41",
+                        "scanType": "Progressive",
+                        "subtitles": "fre/fre"
+                    },
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 1,
+                            "name": "English"
+                        },
+                        {
+                            "id": 2,
+                            "name": "French"
+                        }
+                    ],
+                    "edition": "",
+                    "id": 1983
+                },
+                "popularity": 14.568,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 1869730309,
+                    "releaseGroups": []
+                },
+                "id": 1128720,
+                "retry": 1,
+                "reason": "No cache folder for Dans L'Inconnu : La Grotte Aux Ossements"
+            },
+            "1059598": {
+                "title": "Les Dinosaures du pôle Sud",
+                "originalTitle": "Les Dinosaures du pôle Sud",
+                "originalLanguage": {
+                    "id": 2,
+                    "name": "French"
+                },
+                "alternateTitles": [
+                    {
+                        "sourceType": "tmdb",
+                        "movieMetadataId": 1237,
+                        "title": "Dinosaurs of The Frozen Continent",
+                        "id": 20713
+                    }
+                ],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "les dinosaures du pôle sud",
+                "sizeOnDisk": 534377328,
+                "status": "announced",
+                "overview": "À quoi ressemblait le pôle Sud au temps des dinosaures ? Un fascinant panorama préhistorique, fondé sur les dernières découvertes paléontologiques et illustré de reconstitutions 3D.  L’Antarctique n’a pas toujours été le continent blanc et inhospitalier que l’on connaît. Au temps des dinosaures, la région, qui formait le sud du Gondwana, l’un des deux supercontinents issus de la Pangée, était tempérée et jouissait d’une riche biodiversité. Il y a 252 millions d'années, après un réchauffement brutal de la planète qui a entraîné l’extinction massive du Permien-Trias, la faune et la flore du pôle Sud connaissaient un important renouveau. Jusqu’à l’extinction définitive des dinosaures, il y a 66 millions d’années, nombre de ces géants ont foulé le sol austral. Mais comment supportaient-ils la nuit polaire, durant laquelle le soleil cesse de briller plusieurs mois ?",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1896/poster.jpg?lastWrite=638463683578746213",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/damuVrPhZtYZLLcEV8v26aTCGkg.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1896/fanart.jpg?lastWrite=638463683579306222",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/49n6tvI84BtYweKhwf0cEBu0jKG.jpg"
+                    }
+                ],
+                "website": "",
+                "year": 2022,
+                "youTubeTrailerId": "",
+                "studio": "ARTE",
+                "path": "/mnt/Media1/Films/Les Dinosaures du pôle Sud (2022)",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": true,
+                "minimumAvailability": "announced",
+                "isAvailable": true,
+                "folderName": "/mnt/Media1/Films/Les Dinosaures du pôle Sud (2022)",
+                "runtime": 0,
+                "cleanTitle": "lesdinosauresdupolesud",
+                "imdbId": "tt24512934",
+                "tmdbId": 1059598,
+                "titleSlug": "1059598",
+                "rootFolderPath": "/mnt/Media1/Films/",
+                "genres": [
+                    "Documentary"
+                ],
+                "tags": [],
+                "added": "2024-03-18T14:19:15Z",
+                "ratings": {
+                    "imdb": {
+                        "votes": 13,
+                        "value": 7.5,
+                        "type": "user"
+                    },
+                    "tmdb": {
+                        "votes": 1,
+                        "value": 8,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1896,
+                    "relativePath": "Les Dinosaures du Pôle Sud.mkv",
+                    "path": "/mnt/Media1/Films/Les Dinosaures du pôle Sud (2022)/Les Dinosaures du Pôle Sud.mkv",
+                    "size": 534377328,
+                    "dateAdded": "2024-03-18T14:19:17Z",
+                    "indexerFlags": 0,
+                    "quality": {
+                        "quality": {
+                            "id": 3,
+                            "name": "WEBDL-1080p",
+                            "source": "webdl",
+                            "resolution": 1080,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 0,
+                        "audioChannels": 2,
+                        "audioCodec": "Opus",
+                        "audioLanguages": "fra",
+                        "audioStreamCount": 1,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 0,
+                        "videoCodec": "VP9",
+                        "videoFps": 30,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "1920x1080",
+                        "runTime": "52:14",
+                        "scanType": "Progressive",
+                        "subtitles": ""
+                    },
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 2,
+                            "name": "French"
+                        }
+                    ],
+                    "edition": "",
+                    "id": 1986
+                },
+                "popularity": 0.6,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 534377328,
+                    "releaseGroups": []
+                },
+                "id": 1059598,
+                "retry": 1,
+                "reason": "No cache folder for Les Dinosaures du pôle Sud"
+            },
+            "979151": {
+                "title": "Les Femmes préhistoriques",
+                "originalTitle": "Les Femmes préhistoriques",
+                "originalLanguage": {
+                    "id": 2,
+                    "name": "French"
+                },
+                "alternateTitles": [],
+                "secondaryYearSourceId": 0,
+                "sortTitle": "les femmes préhistoriques",
+                "sizeOnDisk": 339340535,
+                "status": "released",
+                "overview": "Décrites pendant des siècles par les préhistoriens comme des mères passives attendant leurs hommes près du feu, les femmes furent reléguées aux oubliettes de la préhistoire. Mais les temps ont changé. Grâce à de nouvelles découvertes scientifiques, la vidéaste française Clothilde Chamussy et l'archéologue américain, Randall Haas, se lancent sur leurs traces pour comprendre quels étaient leurs rôles.",
+                "digitalRelease": "2022-05-22T00:00:00Z",
+                "images": [
+                    {
+                        "coverType": "poster",
+                        "url": "/radarr/MediaCover/1897/poster.jpg?lastWrite=638463683578866215",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/eKxkwDP56zXRQqzcHiy4Qpd9U49.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/radarr/MediaCover/1897/fanart.jpg?lastWrite=638463683579386224",
+                        "remoteUrl": "https://image.tmdb.org/t/p/original/84eMPBrow0AUZLfV20BvwCk3PWB.jpg"
+                    }
+                ],
+                "website": "",
+                "year": 2022,
+                "youTubeTrailerId": "",
+                "studio": "La Famiglia",
+                "path": "/mnt/Media1/Films/Les Femmes préhistoriques (2022)",
+                "qualityProfileId": 6,
+                "hasFile": true,
+                "monitored": true,
+                "minimumAvailability": "announced",
+                "isAvailable": true,
+                "folderName": "/mnt/Media1/Films/Les Femmes préhistoriques (2022)",
+                "runtime": 0,
+                "cleanTitle": "prehistoricwomen",
+                "tmdbId": 979151,
+                "titleSlug": "979151",
+                "rootFolderPath": "/mnt/Media1/Films/",
+                "genres": [
+                    "Documentary",
+                    "History"
+                ],
+                "tags": [],
+                "added": "2024-03-18T14:19:15Z",
+                "ratings": {
+                    "tmdb": {
+                        "votes": 1,
+                        "value": 10,
+                        "type": "user"
+                    }
+                },
+                "movieFile": {
+                    "movieId": 1897,
+                    "relativePath": "Les Femmes Préhistoriques.mkv",
+                    "path": "/mnt/Media1/Films/Les Femmes préhistoriques (2022)/Les Femmes Préhistoriques.mkv",
+                    "size": 339340535,
+                    "dateAdded": "2024-03-18T14:19:17Z",
+                    "indexerFlags": 0,
+                    "quality": {
+                        "quality": {
+                            "id": 3,
+                            "name": "WEBDL-1080p",
+                            "source": "webdl",
+                            "resolution": 1080,
+                            "modifier": "none"
+                        },
+                        "revision": {
+                            "version": 1,
+                            "real": 0,
+                            "isRepack": false
+                        }
+                    },
+                    "customFormatScore": 0,
+                    "mediaInfo": {
+                        "audioBitrate": 0,
+                        "audioChannels": 2,
+                        "audioCodec": "Opus",
+                        "audioLanguages": "fra",
+                        "audioStreamCount": 1,
+                        "videoBitDepth": 8,
+                        "videoBitrate": 0,
+                        "videoCodec": "VP9",
+                        "videoFps": 30,
+                        "videoDynamicRange": "",
+                        "videoDynamicRangeType": "",
+                        "resolution": "1920x1080",
+                        "runTime": "44:57",
+                        "scanType": "Progressive",
+                        "subtitles": ""
+                    },
+                    "qualityCutoffNotMet": true,
+                    "languages": [
+                        {
+                            "id": 2,
+                            "name": "French"
+                        }
+                    ],
+                    "edition": "",
+                    "id": 1988
+                },
+                "popularity": 0.661,
+                "statistics": {
+                    "movieFileCount": 1,
+                    "sizeOnDisk": 339340535,
+                    "releaseGroups": []
+                },
+                "id": 979151,
+                "retry": 1,
+                "reason": "No cache folder for Les Femmes préhistoriques"
+            }
+        },
+        "success": {
+            "71780": "/mnt/Media1/Films/Balas e Bolinhos (2001)/backdrops/balas bolinhos.mkv",
+            "98472": "/mnt/Media1/Films/Balas e Bolinhos 3 (2012)/backdrops/balas bolinhos o último capítulo.mkv",
+            "346698": "/mnt/Media1/Films/Barbie (2023)/backdrops/barbie.mkv",
+            "321612": "/mnt/Media1/Films/Beauty And The Beast (2017)/backdrops/la belle et la bête.mkv",
+            "354912": "/mnt/Media1/Films/Coco (2017)/backdrops/coco.mkv",
+            "976573": "/mnt/Media1/Films/Elemental (2023)/backdrops/élémentaire.mkv",
+            "568124": "/mnt/Media1/Films/Encanto (2021)/backdrops/encanto la fantastique famille madrigal.mkv",
+            "939338": "/mnt/Media1/Films/Epic Tails (2023)/backdrops/pattie et la colère de poséidon.mkv",
+            "1225707": "/mnt/Media1/Films/Five Years From Now 2024/backdrops/dans 5 ans.mkv",
+            "550988": "/mnt/Media1/Films/Free Guy (2021)/backdrops/free guy.mkv",
+            "33701": "/mnt/Media1/Films/Les Bronzes Font Du Ski (1979)/backdrops/les bronzés font du ski.mkv",
+            "21435": "/mnt/Media1/Films/French Fried Vacations 3 Friends Forever 2006/backdrops/les bronzés 3 amis pour la vie.mkv",
+            "616747": "/mnt/Media1/Films/Haunted Mansion (2023)/backdrops/le manoir hanté.mkv",
+            "641501": "/mnt/Media1/Films/How I Became a Superhero (2020)/backdrops/comment je suis devenu super héros.mkv",
+            "157336": "/mnt/Media1/Films/Interstellar 2014/backdrops/interstellar.mkv",
+            "451048": "/mnt/Media1/Films/Jungle Cruise (2021)/backdrops/jungle cruise.mkv",
+            "9502": "/mnt/Media1/Films/Kung Fu Panda (2008)/backdrops/kung fu panda.mkv",
+            "49444": "/mnt/Media1/Films/Kung Fu Panda 2 (2011)/backdrops/kung fu panda 2.mkv",
+            "109445": "/mnt/Media1/Films/La Reine Des Neiges (2013)/backdrops/la reine des neiges.mkv",
+            "330457": "/mnt/Media1/Films/La Reine Des Neiges II (2019)/backdrops/la reine des neiges ii.mkv",
+            "512895": "/mnt/Media1/Films/Lady and the Tramp (2019)/backdrops/la belle et le clochard.mkv",
+            "11430": "/mnt/Media1/Films/Le Roi Lion 3/backdrops/le roi lion 3 hakuna matata.mkv",
+            "5528": "/mnt/Media1/Films/Les choristes (2004)/backdrops/les choristes.mkv",
+            "248705": "/mnt/Media1/Films/Les Visiteurs : La Révolution/backdrops/les visiteurs la révolution.mkv",
+            "718789": "/mnt/Media1/Films/Lightyear (2022)/backdrops/buzz l éclair.mkv",
+            "508943": "/mnt/Media1/Films/Luca (2021)/backdrops/luca.mkv",
+            "420809": "/mnt/Media1/Films/Maleficent - Mistress of Evil (2019)/backdrops/maléfique le pouvoir du mal.mkv",
+            "102651": "/mnt/Media1/Films/Maleficent (2014)/backdrops/maléfique.mkv",
+            "337401": "/mnt/Media1/Films/Mulan (2020)/backdrops/mulan.mkv",
+            "323661": "/mnt/Media1/Films/Mune - Guardian of the Moon (2015)/backdrops/mune le gardien de la lune.mkv",
+            "753342": "/mnt/Media1/Films/Napoleon 2023/backdrops/napoléon.mkv",
+            "508439": "/mnt/Media1/Films/Onward (2020)/backdrops/en avant.mkv",
+            "872585": "/mnt/Media1/Films/Oppenheimer (2023)/backdrops/oppenheimer.mkv",
+            "676705": "/mnt/Media1/Films/Pil's Adventures (2021)/backdrops/pil.mkv",
+            "532639": "/mnt/Media1/Films/Pinocchio (2022)/backdrops/pinocchio.mkv",
+            "10530": "/mnt/Media1/Films/Pocahontas, une légende indienne (1995)/backdrops/pocahontas une légende indienne.mkv",
+            "382597": "/mnt/Media1/Films/R.A.I.D. Special Unit (2017)/backdrops/raid dingue.mkv",
+            "2062": "/mnt/Media1/Films/Ratatouille (2007)/backdrops/ratatouille.mkv",
+            "527774": "/mnt/Media1/Films/Raya and the Last Dragon (2021)/backdrops/raya et le dernier dragon.mkv",
+            "14645": "/mnt/Media1/Films/Le père Noël est une ordure (1982)/backdrops/le père noël est une ordure.mkv",
+            "111": "/mnt/Media1/Films/Scarface (1983)/backdrops/scarface.mkv",
+            "262391": "/mnt/Media1/Films/Qu'est ce qu'on a fait au bon dieu (2014)/backdrops/qu est ce qu on fait au bon dieu.mkv",
+            "182219": "/mnt/Media1/Films/Les Profs (2013)/backdrops/les profs.mkv",
+            "11770": "/mnt/Media1/Films/Shaolin Soccer (2001)/backdrops/shaolin soccer.mkv",
+            "906126": "/mnt/Media1/Films/Le Cercle des neiges (2023)/backdrops/le cercle des neiges.mkv",
+            "508442": "/mnt/Media1/Films/Soul (2020)/backdrops/soul.mkv",
+            "877269": "/mnt/Media1/Films/Strange World (2022)/backdrops/avalonia l étrange voyage.mkv",
+            "2454": "/mnt/Media1/Films/The Chronicles of Narnia - Prince Caspian (2008)/backdrops/le monde de narnia le prince caspian.mkv",
+            "411": "/mnt/Media1/Films/The Chronicles of Narnia - The Lion, the Witch and the Wardrobe (2005)/backdrops/le monde de narnia le lion la sorcière blanche et l armoire magique.mkv",
+            "695721": "/mnt/Media1/Films/Hunger Games La Ballade du serpent et de l'oiseau chanteur (2023)/backdrops/hunger games la ballade du serpent et de l oiseau chanteur.mkv",
+            "729720": "/mnt/Media1/Films/Le Dernier Mercenaire (2021)/backdrops/le dernier mercenaire.mkv",
+            "420818": "/mnt/Media1/Films/The Lion King (2019)/backdrops/le roi lion.mkv",
+            "344268": "/mnt/Media1/Films/The New Adventures Of Aladdin (2015)/backdrops/les nouvelles aventures d aladin.mkv",
+            "1020394": "/mnt/Media1/Films/The Squad - Home Run (2023)/backdrops/antigang la relève.mkv",
+            "502356": "/mnt/Media1/Films/The Super Mario Bros Movie (2023)/backdrops/super mario bros le film.mkv",
+            "11687": "/mnt/Media1/Films/The Visitors (1993)/backdrops/les visiteurs.mkv",
+            "10353": "/mnt/Media1/Films/The Visitors II The Corridors of Time 1998/backdrops/les couloirs du temps les visiteurs ii.mkv",
+            "301528": "/mnt/Media1/Films/Toy Story 4 (2019)/backdrops/toy story 4.mkv",
+            "508947": "/mnt/Media1/Films/Turning Red (2022)/backdrops/alerte rouge.mkv",
+            "928217": "/mnt/Media1/Films/Two Of A Kind (2022)/backdrops/jumeaux mais pas trop.mkv",
+            "169020": "/mnt/Media1/Films/Vive La France (2013)/backdrops/vive la france.mkv",
+            "10681": "/mnt/Media1/Films/WALL·E (2008)/backdrops/walle.mkv",
+            "438347": "/mnt/Media1/Films/Wedding Unplanned (2017)/backdrops/jour j.mkv",
+            "8265": "/mnt/Media1/Films/Welcome To The Sticks (2008)/backdrops/bienvenue chez les ch tis.mkv",
+            "998582": "/mnt/Media1/Films/Yo Mama (2023)/backdrops/yo mama.mkv",
+            "269149": "/mnt/Media1/Films/Zootopia (2016)/backdrops/zootopie.mkv",
+            "71781": "/mnt/Media1/Films/Balas e Bolinhos 2 - O Regresso (2004)/backdrops/balas bolinhos o regresso.mkv",
+            "11183": "/mnt/Media1/Films/Les Bronzés (1978)/backdrops/les bronzés.mkv",
+            "140300": "/mnt/Media1/Films/Kung Fu Panda 3 2016/backdrops/kung fu panda 3.mkv",
+            "505436": "/mnt/Media1/Films/Serial Bad Weddings 2 2019/backdrops/qu est ce qu on encore fait au bon dieu.mkv",
+            "325844": "/mnt/Media1/Films/Les Profs 2 (2015)/backdrops/les profs 2.mkv",
+            "10140": "/mnt/Media1/Films/The Chronicles of Narnia The Voyage of the Dawn Treader 2010/backdrops/le monde de narnia l odyssée du passeur d aurore.mkv",
+            "70160": "/mnt/Media1/Films/The Hunger Games 2012/backdrops/hunger games.mkv",
+            "101299": "/mnt/Media1/Films/The Hunger Games Catching Fire 2013/backdrops/hunger games l embrasement.mkv",
+            "131631": "/mnt/Media1/Films/The Hunger Games Mockingjay Part 1 2014/backdrops/hunger games la révolte partie 1.mkv",
+            "131634": "/mnt/Media1/Films/The Hunger Games Mockingjay Part 2 2015/backdrops/hunger games la révolte partie 2.mkv",
+            "459616": "/mnt/Media1/Films/Aladdin 2 2018/backdrops/alad 2.mkv",
+            "348060": "/mnt/Media1/Films/Antigang (2015)/backdrops/antigang.mkv",
+            "862": "/mnt/Media1/Films/Toy Story (1995)/backdrops/toy story.mkv",
+            "863": "/mnt/Media1/Films/Toy Story 2 (1999)/backdrops/toy story 2.mkv",
+            "10193": "/mnt/Media1/Films/Toy Story 3 (2010)/backdrops/toy story 3.mkv",
+            "613377": "/mnt/Media2/Films/30 jours max  (2021)/backdrops/30 jours max.mkv",
+            "958603": "/mnt/Media2/Films/38°5 quai des Orfèvres (2023)/backdrops/385 quai des orfèvres.mkv",
+            "398929": "/mnt/Media2/Films/Alibi.com (2017)/backdrops/alibi com.mkv",
+            "967585": "/mnt/Media2/Films/Alibi.com 2 (2023)/backdrops/alibi com 2.mkv",
+            "126889": "/mnt/Media2/Films/Alien - Covenant (2017)/backdrops/alien covenant.mkv",
+            "2395": "/mnt/Media2/Films/Asterix at the Olympic Games (2008)/backdrops/astérix aux jeux olympiques.mkv",
+            "99770": "/mnt/Media2/Films/Astérix et Obélix Au service de Sa Majesté (2012)/backdrops/astérix obélix au service de sa majesté.mkv",
+            "643215": "/mnt/Media2/Films/Astérix et Obélix L'Empire du Milieu (2023)/backdrops/astérix obélix l empire du milieu.mkv",
+            "19995": "/mnt/Media2/Films/Avatar (2009)/backdrops/avatar.mkv",
+            "262551": "/mnt/Media2/Films/Babysitting (2014)/backdrops/babysitting.mkv",
+            "334304": "/mnt/Media2/Films/Belle and Sebastian The Adventure Continues (2015)/backdrops/belle et sébastien l aventure continue.mkv",
+            "436270": "/mnt/Media2/Films/Black Adam (2022)/backdrops/black adam.mkv",
+            "408": "/mnt/Media2/Films/Blanche Neige (1937)/backdrops/blanche neige et les sept nains.mkv",
+            "49013": "/mnt/Media2/Films/Cars 2 (2011)/backdrops/cars 2.mkv",
+            "260514": "/mnt/Media2/Films/Cars 3 (2017)/backdrops/cars 3.mkv",
+            "1140056": "/mnt/Media2/Films/Gold Brick (2023)/backdrops/cash.mkv",
+            "150689": "/mnt/Media2/Films/Cinderella (2015)/backdrops/cendrillon.mkv",
+            "302699": "/mnt/Media2/Films/Central Intelligence (2016)/backdrops/agents presque secrets.mkv",
+            "216015": "/mnt/Media2/Films/Cinquante Nuances de Grey (2015)/backdrops/cinquante nuances de grey.mkv",
+            "337167": "/mnt/Media2/Films/Fifty Shades Freed (2018)/backdrops/cinquante nuances plus claires.mkv",
+            "341174": "/mnt/Media2/Films/Fifty Shades Darker (2017)/backdrops/cinquante nuances plus sombres.mkv",
+            "461130": "/mnt/Media2/Films/Code 8 (2019)/backdrops/code 8.mkv",
+            "293660": "/mnt/Media2/Films/Deadpool (2016)/backdrops/deadpool.mkv",
+            "383498": "/mnt/Media2/Films/Deadpool 2 (2018)/backdrops/deadpool 2.mkv",
+            "385687": "/mnt/Media2/Films/Fast X (2023)/backdrops/fast furious x.mkv",
+            "10010": "/mnt/Media2/Films/Frère des ours 2 (2006)/backdrops/frère des ours 2.mkv",
+            "245891": "/mnt/Media2/Films/John Wick (2014)/backdrops/john wick.mkv",
+            "324552": "/mnt/Media2/Films/John Wick Chapter 2 (2017)/backdrops/john wick 2.mkv",
+            "603692": "/mnt/Media2/Films/John Wick Chapitre 4 (2023)/backdrops/john wick chapitre 4.mkv",
+            "458156": "/mnt/Media2/Films/John Wick Chapter 3 Parabellum (2019)/backdrops/john wick parabellum.mkv",
+            "311324": "/mnt/Media2/Films/The Great Wall (2016)/backdrops/la grande muraille.mkv",
+            "1035459": "/mnt/Media2/Films/La Tête dans les étoiles (2023)/backdrops/la tête dans les étoiles.mkv",
+            "1000094": "/mnt/Media2/Films/Le Clan (2023)/backdrops/le clan.mkv",
+            "998589": "/mnt/Media2/Films/Le grand cirque (2023)/backdrops/le grand cirque.mkv",
+            "122917": "/mnt/Media2/Films/The Hobbit The Battle of the Five Armies (2014)/backdrops/le hobbit la bataille des cinq armées.mkv",
+            "122": "/mnt/Media2/Films/The Lord of the Rings The Return of the King (2003)/backdrops/le seigneur des anneaux le retour du roi.mkv",
+            "860469": "/mnt/Media2/Films/Top Dogs (2023)/backdrops/les cadors.mkv",
+            "455476": "/mnt/Media2/Films/Knights of the Zodiac (2023)/backdrops/les chevaliers du zodiaque.mkv",
+            "283995": "/mnt/Media2/Films/Guardians of the Galaxy Vol. 2 (2017)/backdrops/les gardiens de la galaxie vol 2.mkv",
+            "424619": "/mnt/Media2/Films/Les Tuche 3 (2018)/backdrops/les tuche 3.mkv",
+            "638965": "/mnt/Media2/Films/Mandibles (2020)/backdrops/mandibules.mkv",
+            "603": "/mnt/Media2/Films/The Matrix (1999)/backdrops/matrix.mkv",
+            "624860": "/mnt/Media2/Films/The Matrix Resurrections (2021)/backdrops/matrix resurrections.mkv",
+            "459003": "/mnt/Media2/Films/Mavka The Forest Song (2023)/backdrops/le royaume de naya.mkv",
+            "961718": "/mnt/Media2/Films/Medellin (2023)/backdrops/medellin.mkv",
+            "1010581": "/mnt/Media2/Films/My Fault (2023)/backdrops/à contre sens.mkv",
+            "469274": "/mnt/Media2/Films/Nicky Larson and the Cupids Perfume (2019)/backdrops/nicky larson et le parfum de cupidon.mkv",
+            "1100962": "/mnt/Media2/Films/One More Time (2023)/backdrops/one more time.mkv",
+            "15152": "/mnt/Media2/Films/OSS 117 Cairo Nest of Spies (2006)/backdrops/oss 117 le caire nid d espions.mkv",
+            "6023": "/mnt/Media2/Films/P.S. I Love You (2007)/backdrops/p s i love you.mkv",
+            "22": "/mnt/Media2/Films/Pirates of the Caribbean The Curse of the Black Pearl (2003)/backdrops/pirates des caraïbes la malédiction du black pearl.mkv",
+            "166426": "/mnt/Media2/Films/Pirates of the Caribbean Dead Men Tell No Tales (2017)/backdrops/pirates des caraïbes la vengeance de salazar.mkv",
+            "450179": "/mnt/Media2/Films/Problemos (2017)/backdrops/problemos.mkv",
+            "338967": "/mnt/Media2/Films/Zombieland Double Tap (2019)/backdrops/retour à zombieland.mkv",
+            "165": "/mnt/Media2/Films/Back to the Future Part II (1989)/backdrops/retour vers le futur ii.mkv",
+            "723347": "/mnt/Media2/Films/Robots (2023)/backdrops/robots.mkv",
+            "665388": "/mnt/Media2/Films/Rumba Therapy (2022)/backdrops/rumba la vie.mkv",
+            "4248": "/mnt/Media2/Films/Scary Movie 2 (2001)/backdrops/scary movie 2.mkv",
+            "4258": "/mnt/Media2/Films/Scary Movie 5 (2013)/backdrops/scary movie 5.mkv",
+            "287947": "/mnt/Media2/Films/Shazam! (2019)/backdrops/shazam.mkv",
+            "454626": "/mnt/Media2/Films/Sonic the Hedgehog (2020)/backdrops/sonic le film.mkv",
+            "429617": "/mnt/Media2/Films/Spider-Man Far From Home (2019)/backdrops/spider man far from home.mkv",
+            "315635": "/mnt/Media2/Films/Spider-Man Homecoming (2017)/backdrops/spider man homecoming.mkv",
+            "634649": "/mnt/Media2/Films/Spider-Man No Way Home (2021)/backdrops/spider man no way home.mkv",
+            "1895": "/mnt/Media2/Films/Star Wars Episode III Revenge of the Sith (2005)/backdrops/star wars épisode iii la revanche des sith.mkv",
+            "11": "/mnt/Media2/Films/Star Wars (1977)/backdrops/la guerre des étoiles.mkv",
+            "140607": "/mnt/Media2/Films/Star Wars The Force Awakens (2015)/backdrops/star wars le réveil de la force.mkv",
+            "298618": "/mnt/Media2/Films/The Flash (2023)/backdrops/flash.mkv",
+            "77338": "/mnt/Media2/Films/The Intouchables (2011)/backdrops/intouchables.mkv",
+            "597": "/mnt/Media2/Films/Titanic (1997)/backdrops/titanic.mkv",
+            "744": "/mnt/Media2/Films/Top Gun (1986)/backdrops/top gun.mkv",
+            "361743": "/mnt/Media2/Films/Top Gun Maverick (2022)/backdrops/top gun maverick.mkv",
+            "8966": "/mnt/Media2/Films/Twilight (2008)/backdrops/twilight chapitre 1 fascination.mkv",
+            "988762": "/mnt/Media2/Films/A Place to Fight For (2023)/backdrops/une zone à défendre.mkv",
+            "967582": "/mnt/Media2/Films/3 days max 2023/backdrops/3 jours max.mkv",
+            "204668": "/mnt/Media1/Films/Belle et Sebastian (2013)/backdrops/belle et sébastien.mkv",
+            "434358": "/mnt/Media1/Films/Belle et Sébastien 3 : Le Dernier Chapitre (2018)/backdrops/belle et sébastien 3 le dernier chapitre.mkv",
+            "932420": "/mnt/Media2/Films/Code 8 Part II/backdrops/code 8 partie ii.mkv",
+            "10009": "/mnt/Media1/Films/Frère des ours (2003)/backdrops/frère des ours.mkv",
+            "8844": "/mnt/Media1/Films/Jumanji (1995)/backdrops/jumanji.mkv",
+            "9325": "/mnt/Media1/Films/Le Livre de la jungle (1967)/backdrops/le livre de la jungle.mkv",
+            "10674": "/mnt/Media1/Films/Mulan (1998)/backdrops/mulan.mkv",
+            "15588": "/mnt/Media2/Films/OSS 117 Lost in Rio (2009)/backdrops/oss 117 rio ne répond plus.mkv",
+            "319341": "/mnt/Media1/Films/Papa ou Maman (2015)/backdrops/papa ou maman.mkv",
+            "955916": "/mnt/Media1/Films/Lift 2024/backdrops/en plein vol.mkv",
+            "866398": "/mnt/Media1/Films/The Beekeeper 2024/backdrops/beekeeper.mkv",
+            "848187": "/mnt/Media1/Films/Role Play 2023/backdrops/role play.mkv",
+            "889675": "/mnt/Media1/Films/The Pod Generation 2023/backdrops/pod generation.mkv",
+            "980489": "/mnt/Media1/Films/Gran Turismo (2023)/backdrops/gran turismo.mkv",
+            "943134": "/mnt/Media1/Films/The Animal Kingdom 2023/backdrops/le règne animal.mkv",
+            "937249": "/mnt/Media1/Films/57 Seconds (2023)/backdrops/57 seconds.mkv",
+            "965791": "/mnt/Media1/Films/A Difficult Year 2023/backdrops/une année difficile.mkv",
+            "420808": "/mnt/Media1/Films/Peter Pan and Wendy 2023/backdrops/peter pan et wendy.mkv",
+            "1029575": "/mnt/Media1/Films/The Family Plan 2023/backdrops/family plan.mkv",
+            "4922": "/mnt/Media1/Films/L'etrange Histoire de Benjamin Button/backdrops/l étrange histoire de benjamin button.mkv",
+            "977331": "/mnt/Media1/Films/Cat and Dog 2024/backdrops/chien et chat.mkv",
+            "22954": "/mnt/Media1/Films/Invictus 2009/backdrops/invictus.mkv",
+            "940551": "/mnt/Media1/Films/Migration 2023/backdrops/migration.mkv",
+            "1007826": "/mnt/Media1/Films/The Underdoggs (2024)/backdrops/underdoggs.mkv",
+            "792307": "/mnt/Media1/Films/Poor Things 2023/backdrops/pauvres créatures.mkv",
+            "848538": "/mnt/Media1/Films/Argylle 2024/backdrops/argylle.mkv",
+            "580600": "/mnt/Media1/Films/Astro Kid (2019)/backdrops/terra willy planète inconnue.mkv",
+            "62177": "/mnt/Media1/Films/Brave (2012)/backdrops/rebelle.mkv",
+            "451500": "/mnt/Media1/Films/Christmas Co. (2017)/backdrops/santa cie.mkv",
+            "10800": "/mnt/Media1/Films/Dragon Hunters (2008)/backdrops/chasseurs de dragons.mkv",
+            "659063": "/mnt/Media1/Films/En Passant Pecho Les Carottes Sont Cuites (2021)/backdrops/en passant pécho.mkv",
+            "589970": "/mnt/Media1/Films/Le Lion (2020)/backdrops/le lion.mkv",
+            "1000081": "/mnt/Media1/Films/Sentinelle (2023)/backdrops/sentinelle.mkv",
+            "51191": "/mnt/Media2/Films/Guardian Angels (1995)/backdrops/les anges gardiens.mkv",
+            "671043": "/mnt/Media2/Films/Spoiled Brats (2021)/backdrops/pourris gâtés.mkv",
+            "1204912": "/mnt/Media2/Films/Dealing with Christmas (2023)/backdrops/un stupéfiant noël.mkv",
+            "411626": "/mnt/Media1/Films/Gangsterdam 2017/backdrops/gangsterdam.mkv",
+            "498248": "/mnt/Media1/Films/Mia et le Lion Blanc (2018)/backdrops/mia et le lion blanc.mkv",
+            "550738": "/mnt/Media1/Films/Spycies 2020/backdrops/spycies.mkv",
+            "609681": "/mnt/Media1/Films/The Marvels 2023/backdrops/marvels.mkv",
+            "642684": "/mnt/Media1/Films/Operation Portugal 2021/backdrops/opération portugal.mkv",
+            "802219": "/mnt/Media1/Films/Bob Marley One Love 2024/backdrops/bob marley one love.mkv",
+            "425": "/mnt/Media1/Films/L'Âge de glace (2002)/backdrops/l âge de glace.mkv",
+            "774825": "/mnt/Media1/Films/The Ice Age Adventures of Buck Wild 2022/backdrops/l âge de glace les aventures de buck wild.mkv",
+            "57800": "/mnt/Media1/Films/Ice Age Continental Drift 2012/backdrops/l âge de glace 4 la dérive des continents.mkv",
+            "278154": "/mnt/Media1/Films/Ice Age Collision Course 2016/backdrops/l âge de glace les lois de l univers.mkv",
+            "1056360": "/mnt/Media1/Films/American Fiction 2023/backdrops/american fiction.mkv",
+            "41411": "/mnt/Media1/Films/The Round Up (2010)/backdrops/la rafle.mkv",
+            "852445": "/mnt/Media1/Films/Acid (2023)/backdrops/acide.mkv",
+            "796185": "/mnt/Media1/Films/The Three Musketeers D'Artagnan (2023)/backdrops/les trois mousquetaires d artagnan.mkv",
+            "1075794": "/mnt/Media2/Films/Leo (2023)/backdrops/leo.mkv",
+            "76493": "/mnt/Media1/Films/The Dictator (2012)/backdrops/le dictateur.mkv",
+            "438631": "/mnt/Media1/Films/Dune (2021)/backdrops/dune première partie.mkv",
+            "634492": "/mnt/Media1/Films/Madame Web (2024)/backdrops/madame web.mkv",
+            "760774": "/mnt/Media1/Films/One Life (2023)/backdrops/une vie.mkv",
+            "1022796": "/mnt/Media1/Films/Wish (2023)/backdrops/wish asha et la bonne étoile.mkv",
+            "16866": "/mnt/Media1/Films/Planète 51/backdrops/planète 51.mkv",
+            "143567": "/mnt/Media1/Films/Comme des frères/backdrops/comme des frères.mkv",
+            "514239": "/mnt/Media1/Films/Les vieux fourneaux (2018)/backdrops/les vieux fourneaux.mkv",
+            "179150": "/mnt/Media1/Films/Réalité/backdrops/réalité.mkv",
+            "45649": "/mnt/Media1/Films/Rubber/backdrops/rubber.mkv",
+            "238215": "/mnt/Media1/Films/The Cobbler/backdrops/cobbler.mkv",
+            "65057": "/mnt/Media1/Films/The descendants/backdrops/descendants.mkv",
+            "83186": "/mnt/Media1/Films/Wrong/backdrops/wrong.mkv",
+            "884453": "/mnt/Media1/Films/Tricky Old Dogs 2 (2022)/backdrops/les vieux fourneaux 2 bons pour l asile.mkv",
+            "278924": "/mnt/Media1/Films/Mechanic Resurrection (2016)/backdrops/mechanic résurrection.mkv",
+            "3170": "/mnt/Media1/Films/Bambi (1942)/backdrops/bambi.mkv",
+            "102899": "/mnt/Media1/Films/Ant-Man (2015)/backdrops/ant man.mkv",
+            "315162": "/mnt/Media1/Films/Puss in Boots The Last Wish (2022)/backdrops/le chat potté 2 la dernière quête.mkv",
+            "337404": "/mnt/Media1/Films/Cruella (2021)/backdrops/cruella.mkv",
+            "414906": "/mnt/Media1/Films/The Batman (2022)/backdrops/batman.mkv",
+            "436969": "/mnt/Media1/Films/The Suicide Squad (2021)/backdrops/suicide squad.mkv",
+            "453395": "/mnt/Media1/Films/Doctor Strange in the Multiverse of Madness (2022)/backdrops/doctor strange in multiverse madness.mkv",
+            "493529": "/mnt/Media1/Films/Dungeons and Dragons Honor Among Thieves (2023)/backdrops/donjons dragons l honneur des voleurs.mkv",
+            "497698": "/mnt/Media1/Films/Black Widow (2021)/backdrops/black widow.mkv",
+            "524434": "/mnt/Media1/Films/Eternals (2021)/backdrops/les éternels.mkv",
+            "636706": "/mnt/Media1/Films/Spaceman (2024)/backdrops/spaceman.mkv",
+            "787699": "/mnt/Media1/Films/Wonka (2023)/backdrops/wonka.mkv",
+            "424694": "/mnt/Media1/Films/Bohemian Rhapsody (2018)/backdrops/bohemian rhapsody.mkv",
+            "68735": "/mnt/Media1/Films/Warcraft (2016)/backdrops/warcraft le commencement.mkv",
+            "286217": "/mnt/Media1/Films/The Martian (2015)/backdrops/seul sur mars.mkv",
+            "76341": "/mnt/Media1/Films/Mad Max Fury Road (2015)/backdrops/mad max fury road.mkv",
+            "157350": "/mnt/Media1/Films/Divergent (2014)/backdrops/divergente.mkv",
+            "1100474": "/mnt/Media1/Films/Inestimable (2023)/backdrops/inestimable.mkv",
+            "892535": "/mnt/Media1/Films/Just Retired 2 (2022)/backdrops/joyeuse retraite 2.mkv",
+            "999134": "/mnt/Media1/Films/Veuillez nous excuser pour la gêne occasionnée (2023)/backdrops/veuillez nous excuser pour la gêne occasionnée.mkv",
+            "984307": "/mnt/Media1/Films/Les Complices (2023)/backdrops/les complices.mkv",
+            "785200": "/mnt/Media1/Films/Uman – The Perfect Man (2022)/backdrops/l homme parfait.mkv",
+            "246818": "/mnt/Media1/Films/David Attenborough's Natural History Museum Alive (2014)/backdrops/david attenborough s natural history museum alive.mkv",
+            "479728": "/mnt/Media1/Films/Le Big bang, mes ancêtres et moi (2009)/backdrops/le big bang mes ancêtres et moi.mkv",
+            "34843": "/mnt/Media1/Films/Stephen Hawking La tête dans les étoiles (2004)/backdrops/hawking la tête dans les étoiles.mkv",
+            "118664": "/mnt/Media1/Films/Titanoboa, le plus grand serpent du monde (2012)/backdrops/titanoboa le plus grand serpent du monde.mkv",
+            "575728": "/mnt/Media1/Films/Turtle Odyssey (2018)/backdrops/turtle odyssey.mkv",
+            "17210": "/mnt/Media1/Films/Voyage dans l'univers (2018)/backdrops/voyage aux confins de l univers.mkv",
+            "842356": "/mnt/Media1/Films/The Velvet Queen (2021)/backdrops/la panthère des neiges.mkv",
+            "890203": "/mnt/Media1/Films/The Book of Wonders (2023)/backdrops/la chambre des merveilles.mkv",
+            "359410": "/mnt/Media2/Films/Road House (2024)/backdrops/road house.mkv",
+            "897087": "/mnt/Media2/Films/Freelance (2023)/backdrops/freelance.mkv",
+            "585511": "/mnt/Media2/Films/Luck (2022)/backdrops/luck.mkv",
+            "830784": "/mnt/Media2/Films/Lyle Lyle Crocodile (2022)/backdrops/enzo le croco.mkv",
+            "1125311": "/mnt/Media1/Films/Imaginary (2024)/backdrops/imaginary.mkv",
+            "572802": "/mnt/Media1/Films/Aquaman and the Lost Kingdom (2023)/backdrops/aquaman et le royaume perdu.mkv",
+            "399566": "/mnt/Media1/Films/Godzilla vs. Kong (2021)/backdrops/godzilla vs kong.mkv",
+            "1072790": "/mnt/Media1/Films/Anyone But You (2023)/backdrops/tout sauf toi.mkv",
+            "382598": "/mnt/Media1/Films/Full Speed (2016)/backdrops/à fond.mkv",
+            "330764": "/mnt/Media1/Films/The Brand New Testament (2015)/backdrops/le tout nouveau testament.mkv",
+            "251": "/mnt/Media1/Films/Ghost (1990)/backdrops/ghost.mkv",
+            "845111": "/mnt/Media1/Films/The Three Musketeers Milady (2023)/backdrops/les trois mousquetaires milady.mkv",
+            "577242": "/mnt/Media2/Films/Kaamelott Premier Volet (2021)/backdrops/kaamelott premier volet.mkv",
+            "675445": "/mnt/Media2/Films/La Pat' Patrouille, le film (2021)/backdrops/la pat patrouille le film.mkv",
+            "620705": "/mnt/Media2/Films/Le Cratère (2023)/backdrops/le cratère.mkv",
+            "57158": "/mnt/Media2/Films/Le Hobbit La désolation de Smaug (2013)/backdrops/le hobbit la désolation de smaug.mkv",
+            "49051": "/mnt/Media2/Films/Le Hobbit Un voyage inattendu (2012)/backdrops/le hobbit un voyage inattendu.mkv",
+            "14873": "/mnt/Media2/Films/Le Livre de la Jungle 2 (2003)/backdrops/le livre de la jungle 2.mkv",
+            "127380": "/mnt/Media2/Films/Le Monde de Dory (2016)/backdrops/le monde de dory.mkv",
+            "238": "/mnt/Media2/Films/Le Parrain (1972)/backdrops/le parrain.mkv",
+            "8587": "/mnt/Media2/Films/Le Roi lion (1994)/backdrops/le roi lion.mkv",
+            "984324": "/mnt/Media2/Films/Le salaire de la peur (2024)/backdrops/le salaire de la peur.mkv",
+            "966576": "/mnt/Media2/Films/Le trésor perdu de Tom Sawyer (2023)/backdrops/le trésor perdu de tom sawyer.mkv",
+            "105864": "/mnt/Media2/Films/Le Voyage d'Arlo (2015)/backdrops/le voyage d arlo.mkv",
+            "12230": "/mnt/Media2/Films/Les 101 Dalmatiens (1961)/backdrops/les 101 dalmatiens.mkv",
+            "278": "/mnt/Media2/Films/Les Évadés (1994)/backdrops/les évadés.mkv",
+            "774752": "/mnt/Media2/Films/Les Gardiens de la Galaxie Joyeuses Fêtes (2022)/backdrops/les gardiens de la galaxie joyeuses fêtes.mkv",
+            "447365": "/mnt/Media2/Films/Les Gardiens de la Galaxie Vol. 3 (2023)/backdrops/les gardiens de la galaxie volume 3.mkv",
+            "9806": "/mnt/Media2/Films/Les Indestructibles (2004)/backdrops/les indestructibles.mkv",
+            "260513": "/mnt/Media2/Films/Les Indestructibles 2 (2018)/backdrops/les indestructibles 2.mkv",
+            "1000603": "/mnt/Media2/Films/Les Petites Victoires (2023)/backdrops/les petites victoires.mkv",
+            "604": "/mnt/Media2/Films/Matrix Reloaded (2003)/backdrops/matrix reloaded.mkv",
+            "829165": "/mnt/Media2/Films/Menteur (2022)/backdrops/menteur.mkv",
+            "604563": "/mnt/Media2/Films/OSS 117 Alerte Rouge en Afrique Noire (2021)/backdrops/oss 117 alerte rouge en afrique noire.mkv",
+            "1865": "/mnt/Media2/Films/Pirates des Caraïbes La Fontaine de Jouvence (2011)/backdrops/pirates des caraïbes la fontaine de jouvence.mkv",
+            "70981": "/mnt/Media2/Films/Prometheus 2012/backdrops/prometheus.mkv",
+            "105": "/mnt/Media2/Films/Retour vers le futur (1985)/backdrops/retour vers le futur.mkv",
+            "196": "/mnt/Media2/Films/Retour vers le futur 3 (1990)/backdrops/retour vers le futur iii.mkv",
+            "594767": "/mnt/Media2/Films/Shazam! La Rage des Dieux (2023)/backdrops/shazam la rage des dieux.mkv",
+            "675353": "/mnt/Media2/Films/Sonic 2, le film (2022)/backdrops/sonic 2 le film.mkv",
+            "1893": "/mnt/Media2/Films/Star Wars Episode I - The Phantom Menace (1999)/backdrops/star wars épisode i la menace fantôme.mkv",
+            "1894": "/mnt/Media2/Films/Star Wars Episode II - Attack of the Clones (2002)/backdrops/star wars épisode ii l attaque des clones.mkv",
+            "1892": "/mnt/Media2/Films/Star Wars Episode VI - Return of the Jedi (1983)/backdrops/le retour du jedi.mkv",
+            "746333": "/mnt/Media2/Films/Super-héros malgré lui (2021)/backdrops/super héros malgré lui.mkv",
+            "57165": "/mnt/Media3/Films/Wrath of the Titans (2012)/backdrops/la colère des titans.mkv",
+            "18823": "/mnt/Media3/Films/Clash of the Titans (2010)/backdrops/le choc des titans.mkv",
+            "197796": "/mnt/Media1/Films/Beauty and the Beast (2014)/backdrops/la belle et la bête.mkv",
+            "432613": "/mnt/Media2/Films/Marry Me Dude (2017)/backdrops/épouse moi mon pote.mkv",
+            "693134": "/mnt/Media1/Films/Dune Part Two (2024)/backdrops/dune deuxième partie.mkv",
+            "447277": "/mnt/Media2/Films/The Little Mermaid (2023)/backdrops/la petite sirène.mkv",
+            "1034940": "/mnt/Media2/Films/All-Time High (2023)/backdrops/nouveaux riches.mkv",
+            "240832": "/mnt/Media3/Films/Lucy (2014)/backdrops/lucy.mkv",
+            "66129": "/mnt/Media2/Films/The Tuche Family (2011)/backdrops/les tuche.mkv"
+        }
+    },
+    "sonarr": {
+        "failed": {
+            "tt7335184": {
+                "title": "You",
+                "alternateTitles": [
+                    {
+                        "title": "Parfaite",
+                        "seasonNumber": -1
+                    },
+                    {
+                        "title": "You Du wirst mich lieben",
+                        "seasonNumber": -1
+                    }
+                ],
+                "sortTitle": "you",
+                "status": "continuing",
+                "ended": false,
+                "overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
+                "previousAiring": "2023-03-09T08:00:00Z",
+                "network": "Netflix",
+                "airTime": "03:00",
+                "images": [
+                    {
+                        "coverType": "banner",
+                        "url": "/sonarr/MediaCover/104/banner.jpg?lastWrite=638472610471036612",
+                        "remoteUrl": "https://artworks.thetvdb.com/banners/graphical/5b45130ff0fff.jpg"
+                    },
+                    {
+                        "coverType": "poster",
+                        "url": "/sonarr/MediaCover/104/poster.jpg?lastWrite=638472610471356617",
+                        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/336924/posters/61460a19754a2.jpg"
+                    },
+                    {
+                        "coverType": "fanart",
+                        "url": "/sonarr/MediaCover/104/fanart.jpg?lastWrite=638472610471636621",
+                        "remoteUrl": "https://artworks.thetvdb.com/banners/fanart/original/5dc99f743b9b0.jpg"
+                    },
+                    {
+                        "coverType": "clearlogo",
+                        "url": "/sonarr/MediaCover/104/clearlogo.png?lastWrite=638472610471876625",
+                        "remoteUrl": "https://artworks.thetvdb.com/banners/v4/series/336924/clearlogo/611c12c17ef44.png"
+                    }
+                ],
+                "originalLanguage": {
+                    "id": 1,
+                    "name": "English"
+                },
+                "seasons": [
+                    {
+                        "seasonNumber": 1,
+                        "monitored": true,
+                        "statistics": {
+                            "previousAiring": "2018-11-11T08:00:00Z",
+                            "episodeFileCount": 10,
+                            "episodeCount": 10,
+                            "totalEpisodeCount": 10,
+                            "sizeOnDisk": 3769261612,
+                            "releaseGroups": [
+                                "EXTREME"
+                            ],
+                            "percentOfEpisodes": 100
+                        }
+                    },
+                    {
+                        "seasonNumber": 2,
+                        "monitored": true,
+                        "statistics": {
+                            "previousAiring": "2019-12-26T08:00:00Z",
+                            "episodeFileCount": 10,
+                            "episodeCount": 10,
+                            "totalEpisodeCount": 10,
+                            "sizeOnDisk": 3826726698,
+                            "releaseGroups": [
+                                "EXTREME"
+                            ],
+                            "percentOfEpisodes": 100
+                        }
+                    },
+                    {
+                        "seasonNumber": 3,
+                        "monitored": true,
+                        "statistics": {
+                            "previousAiring": "2021-10-15T07:00:00Z",
+                            "episodeFileCount": 10,
+                            "episodeCount": 10,
+                            "totalEpisodeCount": 10,
+                            "sizeOnDisk": 3701313718,
+                            "releaseGroups": [
+                                "ZT"
+                            ],
+                            "percentOfEpisodes": 100
+                        }
+                    },
+                    {
+                        "seasonNumber": 4,
+                        "monitored": true,
+                        "statistics": {
+                            "previousAiring": "2023-03-09T08:00:00Z",
+                            "episodeFileCount": 0,
+                            "episodeCount": 10,
+                            "totalEpisodeCount": 10,
+                            "sizeOnDisk": 0,
+                            "releaseGroups": [],
+                            "percentOfEpisodes": 0
+                        }
+                    }
+                ],
+                "year": 2018,
+                "path": "/mnt/Media2/Séries/You (2018)",
+                "qualityProfileId": 6,
+                "seasonFolder": true,
+                "monitored": true,
+                "monitorNewItems": "all",
+                "useSceneNumbering": false,
+                "runtime": 49,
+                "tvdbId": 336924,
+                "tvRageId": 0,
+                "tvMazeId": 26856,
+                "firstAired": "2018-09-09T00:00:00Z",
+                "lastAired": "2023-03-09T00:00:00Z",
+                "seriesType": "standard",
+                "cleanTitle": "you",
+                "imdbId": "tt7335184",
+                "titleSlug": "you",
+                "rootFolderPath": "/mnt/Media2/Séries/",
+                "certification": "TV-MA",
+                "genres": [
+                    "Crime",
+                    "Drama",
+                    "Romance",
+                    "Thriller"
+                ],
+                "tags": [],
+                "added": "2024-03-28T22:17:26Z",
+                "ratings": {
+                    "votes": 0,
+                    "value": 0
+                },
+                "statistics": {
+                    "seasonCount": 4,
+                    "episodeFileCount": 30,
+                    "episodeCount": 40,
+                    "totalEpisodeCount": 40,
+                    "sizeOnDisk": 11297302028,
+                    "releaseGroups": [
+                        "EXTREME",
+                        "ZT"
+                    ],
+                    "percentOfEpisodes": 75.0
+                },
+                "languageProfileId": 1,
+                "id": "tt7335184",
+                "retry": 1,
+                "reason": "No cache folder for You"
+            }
+        },
+        "success": {
+            "tt2395695": "/mnt/Media1/Séries/Cosmos  (2014)/backdrops/cosmos 2014.mkv",
+            "tt9018736": "/mnt/Media1/Séries/Avatar - The Last Airbender (2024)/backdrops/avatar the last airbender 2024.mkv",
+            "tt19395018": "/mnt/Media2/Séries/Constellation (2024)/backdrops/constellation.mkv",
+            "tt4786824": "/mnt/Media1/Séries/The Crown (2016)/backdrops/crown.mkv",
+            "tt10919420": "/mnt/Media1/Séries/Squid Game (2021)/backdrops/squid game.mkv",
+            "tt29627241": "/mnt/Media1/Séries/Polar Park (2023)/backdrops/polar park.mkv",
+            "tt2531336": "/mnt/Media1/Séries/Lupin (2021)/backdrops/lupin.mkv",
+            "tt11737520": "/mnt/Media1/Séries/ONE PIECE (2023)/backdrops/one piece 2023.mkv",
+            "tt28247113": "/mnt/Media1/Séries/Panda (2023)/backdrops/panda.mkv",
+            "tt10423460": "/mnt/Media2/Séries/Family Business (2019)/backdrops/family business 2019.mkv",
+            "tt5834204": "/mnt/Media1/Séries/The Handmaid's Tale (2017)/backdrops/handmaids tale.mkv",
+            "tt0903747": "/mnt/Media1/Séries/Breaking Bad (2008)/backdrops/breaking bad.mkv"
+        }
+    }
+}
