@@ -1,28 +1,4 @@
 #!/bin/bash
-############################
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
-############################
-
-echo "Creating symlink to bash folder in home directory."
-cp -R ./bash/. $HOME/
-
-echo "Creating symlink to zsh folder in home directory."
-cp -R ./zsh/. $HOME/
-
-source  $HOME/.bashrc
-
-echo "update"
-sudo apt-get -qq update
-
-echo "install -y python3 python3-venv python3-pip"
-sudo apt-get -qq install -y python3 python3-venv python3-pip
-
-echo "Install ZSH"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-echo "upgrade pip"
-pip install -q --upgrade pip
-
 # Visual Studio Code :: Package list
 pkglist=(
     aaron-bond.better-comments
@@ -80,6 +56,26 @@ if test /tmp/code-server/bin/code-server; then
         /tmp/code-server/bin/code-server --install-extension $i
     done
 fi
+
+echo "Creating symlink to bash folder in home directory."
+cp -R ./bash/. $HOME/
+
+echo "Creating symlink to zsh folder in home directory."
+cp -R ./zsh/. $HOME/
+
+source $HOME/.bashrc
+
+echo "update"
+sudo apt-get -qq update
+
+echo "install -y python3 python3-venv python3-pip"
+sudo apt-get -qq install -y python3 python3-venv python3-pip
+
+echo "Install ZSH"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+echo "upgrade pip"
+pip install -q --upgrade pip --break-system-packages
 
 echo "Add Settings code-server"
 cp ./settings.json  $HOME/.local/share/code-server/User
