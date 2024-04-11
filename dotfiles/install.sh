@@ -2,14 +2,13 @@
 ############################
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 ############################
+cd dotfiles/ || exit
 
 echo "Creating symlink to bash folder in home directory."
-cp -R ./bash/. $HOME/
+cp -R ./bash/. "$HOME"/
 
-echo "Creating symlink to zsh folder in home directory."
-cp -R ./zsh/. $HOME/
-
-source  $HOME/.bashrc
+# shellcheck source=/dev/null
+source "$HOME/.bashrc"
 
 echo "update"
 sudo apt-get -qq update
@@ -24,16 +23,16 @@ pip install -q --upgrade pip
 pkglist=(
     aaron-bond.better-comments
     alexcvzz.vscode-sqlite
-    batisteo.vscode-django 
+    batisteo.vscode-django
     DavidAnson.vscode-markdownlint
-    dbaeumer.vscode-eslint 
-    DotJoshJohnson.xml 
+    dbaeumer.vscode-eslint
+    DotJoshJohnson.xml
     ecmel.vscode-html-css
     esbenp.prettier-vscode
     felipecaputo.git-project-manager
     foxundermoon.shell-format
-    GrapeCity.gc-excelviewer  
-    rogalmic.bash-debug 
+    GrapeCity.gc-excelviewer
+    rogalmic.bash-debug
     mads-hartmann.bash-ide-vscode
     mechatroner.rainbow-csv
     KevinRose.vsc-python-indent
@@ -60,13 +59,18 @@ pkglist=(
     marp-team.marp-vscode
     shuworks.vscode-table-formatter
     njpwerner.autodocstring
+    Name: Git Graph
+    mhutchie.git-graph
+    donjayamanne.githistory
+    eamodio.gitlens
 )
 
 if test /tmp/code-server/bin/code-server; then
-    for i in ${pkglist[@]}; do
-        /tmp/code-server/bin/code-server --install-extension $i
+    for i in "${pkglist[@]}"; do
+        echo "Install extension $i "
+        /tmp/code-server/bin/code-server --install-extension "$i" > /dev/null
     done
 fi
 
 echo "Add Settings code-server"
-cp ./settings.json  $HOME/.local/share/code-server/User
+cp ./settings.json "$HOME/.local/share/code-server/User"

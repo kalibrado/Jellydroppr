@@ -1,72 +1,62 @@
 {
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "workbench.iconTheme": "vscode-icons",
-    "window.autoDetectColorScheme": true,
-    "window.menuBarVisibility": "classic",
-    "window.dialogStyle": "custom",
-    "window.titleBarStyle": "custom",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter",
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[yaml]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[xml]": {
-      "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
-    "[shellscript]": {
-      "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "250"],
-    "python.linting.enabled": true,
-    "python.analysis.addImport.exactMatchOnly": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.autoSearchPaths": true,
-    "python.analysis.completeFunctionParens": true,
-    "python.analysis.diagnosticMode": "openFilesOnly",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.renderWhitespace": "all",
-    "editor.autoClosingBrackets": "always",
-    "editor.foldingImportsByDefault": true,
-    "editor.guides.bracketPairs": "active",
-    "explorer.incrementalNaming": "smart",
-    "git.openRepositoryInParentFolders": "always",
-    "git.autofetch": true,
-    "workbench.startupEditor": "none",
-    "editor.fontFamily": "JetBrains, Consolas, 'Courier New', monospace",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 500,
-    "http.proxyAuthorization": null,
-    "editor.largeFileOptimizations": false,
-    "editor.tabSize": 6,
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.associations": {
-      "*.jinja": "jinja"
-    },
-    "workbench.editorAssociations": {
-      "*.sqlite3": "default"
-    },
-    "html.format.wrapLineLength": 250,
-    "workbench.colorTheme": "GitHub Dark"
-  }
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.renderWhitespace": "all",
+  "editor.autoClosingBrackets": "always",
+  "editor.foldingImportsByDefault": true,
+  "editor.guides.bracketPairs": "active",
+  "explorer.incrementalNaming": "smart",
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "editor.fontFamily": "JetBrains, Consolas, 'Courier New', monospace",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 500,
+  "http.proxyAuthorization": null,
+  "editor.largeFileOptimizations": false,
+  "editor.tabSize": 6,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.associations": {
+    "*.jinja": "jinja"
+  },
+  "workbench.editorAssociations": {
+    "*.sqlite3": "default"
+  },
+  "html.format.wrapLineLength": 250,
+  "window.autoDetectColorScheme": true,
+  "window.menuBarVisibility": "compact",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark"
+}
