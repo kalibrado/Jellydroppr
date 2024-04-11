@@ -1,6 +1,9 @@
 # Jellydroppr
 
-### docker-compose.yml
+[![Open in Coder](https://leodevops.duckdns.org/open-in-coder.svg)](https://leodevops.duckdns.org/templates/vscode/workspace?param.git_repo=https://github.com/kalibrado/Jellydroppr.git&name=Jellydroppr)
+
+## docker-compose.yml
+
 ```yml
 version: "3"
 services:
