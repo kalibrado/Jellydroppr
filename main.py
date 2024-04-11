@@ -5,7 +5,7 @@ import threading
 from modules.utils import *
 from modules.radarr  import movie_finder
 from modules.sonarr  import show_finder
-
+# BUG
 def main():
     try:
         os.makedirs(f"cache", exist_ok=True)
@@ -19,6 +19,7 @@ def main():
         
         if all(x in config for x in ["radarr_host", "radarr_api"]):
             movie_finder()
+            # TODO
 	        # movie_thread = threading.Thread(name="MOVIE", target=movie_finder, daemon=True )
         if all(x in config for x in ['sonarr_host', 'sonarr_api']):
             show_finder()
