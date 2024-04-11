@@ -68,9 +68,12 @@ pkglist=(
 if test /tmp/code-server/bin/code-server; then
     for i in "${pkglist[@]}"; do
         echo "Install extension $i "
-        /tmp/code-server/bin/code-server --install-extension "$i" > /dev/null
+        /tmp/code-server/bin/code-server --install-extension "$i" >/dev/null
     done
 fi
 
 echo "Add Settings code-server"
 cp ./settings.json "$HOME/.local/share/code-server/User"
+
+# shellcheck source=/dev/null
+source "$HOME/.bashrc"
