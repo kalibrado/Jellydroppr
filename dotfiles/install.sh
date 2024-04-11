@@ -77,7 +77,7 @@ pkglist=(
 
 if test /tmp/code-server/bin/code-server; then
     for i in ${pkglist[@]}; do
-        /tmp/code-server/bin/code-server --install-extension $i
+        /tmp/code-server/bin/code-server --install-extension $i &
     done
 fi
 
