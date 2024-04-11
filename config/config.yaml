@@ -1,25 +1,23 @@
 ### Mandatory ###
-radarr_api: "*******************************"
-radarr_host: "http://127.0.0.1:7878"
-sonarr_api: "*******************************"
-sonarr_host: "http://127.0.0.1:8989"
-tmdb_api: "********************************"
+radarr_api: "bbe0591085714af294b44e6f8c5fb877"
+radarr_host: "http://192.168.1.5:7878/radarr"
+sonarr_api: "99067b5e395f45cb83cd64c80a52f0c1"
+sonarr_host: "http://192.168.1.5:8989/sonarr"
+tmdb_api: "e89801ae0f64061c9fc38ca25af7ad8b"
 output_dirs: "backdrops"
 
 ### Optional ###
 filetype: "mkv"
-# sleep time seconds ex: 3 hour = 10800
-sleep_time: 10800
-try_before_aborting: 3
-length_range: "30,300"
+sleep_time: 1
+length_range: "30,600"
 skip_intros: False
-thread_count: 8
+thread_count: 0
 subs: False
-only_one_trailer: True
-auth_yt_user: ""
-auth_yt_pass: ""
+only_one_trailler: True
+auth_yt_user: "leonardo.fonseca85300@gmail.com"
+auth_yt_pass: "LeonardoLaurie<3google"
 yt_link_base: "https://www.youtube.com/watch?v="
-yt_search_keywords: ""
+yt_search_keywords: "| Trailler | bande annonce vf"
 no_warnings: True
-remove_black_borders: False
 buffer_size_ffmpeg: 2M
+max_retry: 3
