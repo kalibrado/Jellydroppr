@@ -3,22 +3,7 @@
 echo "Creating symlink to bash folder in home directory."
 cp -R ./bash/. $HOME/
 
-echo "Creating symlink to zsh folder in home directory."
-cp -R ./zsh/. $HOME/
-
 . $HOME/.bashrc
-
-echo "update"
-sudo apt-get -qq update
-
-echo "install -y python3 python3-venv python3-pip"
-sudo apt-get -qq install -y python3 python3-venv python3-pip
-
-echo "Install ZSH"
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh
-
-echo "upgrade pip"
-pip install -q --upgrade pip
 
 if test /tmp/code-server/bin/code-server; then
     # Visual Studio Code :: Package list
