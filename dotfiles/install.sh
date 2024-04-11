@@ -26,7 +26,8 @@ pkglist=("aaron-bond.better-comments" "alexcvzz.vscode-sqlite" "batisteo.vscode-
 
 if test /tmp/code-server/bin/code-server; then
     for i in ${pkglist[@]}; do
-        /tmp/code-server/bin/code-server --install-extension $i
+        echo "Install $1" 
+        /tmp/code-server/bin/code-server --install-extension $i > /dev/null 2>&1 &
     done
 fi
 
