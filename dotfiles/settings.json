@@ -42,7 +42,6 @@
   "editor.wordWrapColumn": 500,
   "http.proxyAuthorization": null,
   "editor.largeFileOptimizations": false,
-  "editor.tabSize": 6,
   "security.workspace.trust.untrustedFiles": "open",
   "files.associations": {
     "*.jinja": "jinja"

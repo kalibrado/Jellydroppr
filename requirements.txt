@@ -13,6 +13,11 @@ types-urllib3==1.26.25.14
 urllib3==1.26.18
 websockets==12.0
 yt-dlp==2024.3.10
-flask
-flask-sqlalchemy 
-flask-login
+fastapi
+uvicorn[standard]
+python-multipart
+fastapi-login
+passlib[bcrypt]
+python-jose
+jinja2
+rich

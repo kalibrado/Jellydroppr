@@ -8,8 +8,6 @@ import requests
 import yaml
 import yt_dlp
 
-global reason, retry
-
 GB = 1024 * 1024 * 1024
 BASE_URL = "https://api.themoviedb.org"
 color = {

@@ -8,7 +8,7 @@
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+  "workbench.colorTheme": "GitHub Dark",
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
@@ -31,7 +31,7 @@
   "remote.SSH.remotePlatform": {
     "DELL-I5": "linux"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

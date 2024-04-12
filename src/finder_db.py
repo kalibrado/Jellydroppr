@@ -3,7 +3,7 @@
 import json
 
 
-class DataBase:
+class FinderDB:
     """This class for manipulate json data file"""
 
     def __init__(self, name="Jellydroppr", path="data/database.json"):

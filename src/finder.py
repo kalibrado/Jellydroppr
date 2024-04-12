@@ -6,7 +6,7 @@ import shutil
 from time import sleep
 from pyarr import RadarrAPI, SonarrAPI
 from src.utils import log, config, trailer_download, trailer_pull, GB
-from src.database import DataBase
+from src.finder_db import FinderDB
 
 
 def movie_finder():
@@ -14,7 +14,7 @@ def movie_finder():
     radarr = RadarrAPI(config["radarr_host"], config["radarr_api"])
     movies = radarr.get_movie()
     for movie in movies:
-        db = DataBase("radarr")
+        db = FinderDB("radarr")
         num = movies.index(movie) + 1
         title = movie["title"]
         year = movie["year"]
@@ -67,7 +67,7 @@ def show_finder():
     sonarr = SonarrAPI(config["sonarr_host"], config["sonarr_api"])
     shows = sonarr.get_series()
     for show in shows:
-        db = DataBase("sonarr")
+        db = FinderDB("sonarr")
         num = shows.index(show) + 1
         title = show["title"]
         year = show["year"]
@@ -125,7 +125,7 @@ def finder():
     """_summary_"""
     os.makedirs("cache", exist_ok=True)
     log("GREEN", "CREATE", "Created cache directory.")
-    DataBase().prepare()
+    FinderDB().prepare()
     while True:
         log("WHITE", "CACHE", "Clean cache")
         shutil.rmtree("cache/", ignore_errors=True)
