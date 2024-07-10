@@ -16,3 +16,7 @@ services:
       - /mnt/Media1:/mnt/Media1 # media folder 1
       - /mnt/Media2:/mnt/Media1 # media folder 1
 ```
+
+
+
+[!["Buy Me A Beer"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/leonardofod)
